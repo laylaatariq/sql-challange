@@ -2,13 +2,13 @@
 DROP TABLE IF EXISTS departments;
 DROP TABLE IF EXISTS dept_emp;
 DROP TABLE IF EXISTS dept_manager;
-DROP TABLE IF EXISTS employees;
-DROP TABLE IF EXISTS slaries;
-DROP TABLE IF EXISTS titles;
+DROP TABLE IF EXISTS employee;
+DROP TABLE IF EXISTS salaries;
+DROP TABLE IF EXISTS title;
 
 --Creating departments table
 CREATE TABLE departments(
-	dept_no INT NOT NULL,
+	dept_no VARCHAR NOT NULL,
 	dept_name VARCHAR NOT NULL
 );
 
